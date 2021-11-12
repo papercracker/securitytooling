@@ -4,13 +4,13 @@
 <h2 align="center">About me: Aloha, it's me, Reza Asif</h2>
 <h3 align="center">Security professional from Germany</h3>
 
-- 🔭 I’m currently working on **App-, cloud- and infrastructure- security. Main focus is platform and cloud-native solutions for enterprises.**
+- 🔭 I’m currently working on **app-, cloud- and infrastructure- security. Main focus is platform and cloud-native solutions for enterprises.**
 
-- 📝 I regularly write articles on [https://medium.com/@reza.asif](https://medium.com/@reza.asif)
+- 📝 I regularly write articles on [https://medium.com/@reza.asif](https://medium.com/@reza.asif).
 
-- 💡 I co-coordinate a security meetup (OWASP Ruhrpott) [https://owasp.org/www-chapter-germany/stammtische/ruhrpott/](https://owasp.org/www-chapter-germany/stammtische/ruhrpott/)
+- 💡 I co-coordinate a security meetup (OWASP Ruhrpott) [https://owasp.org/www-chapter-germany/stammtische/ruhrpott/](https://owasp.org/www-chapter-germany/stammtische/ruhrpott/).
 
-- 💬 Ask me about **security, devsecops, threat modelling or risk management on enterprise landscape**
+- 💬 Ask me about **security, devsecops, threat modelling or risk management on enterprise landscape.**
 
 - 📫 How to reach me **https://www.linkedin.com/in/rezaasif/**
 
