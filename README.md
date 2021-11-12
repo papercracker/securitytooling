@@ -1,8 +1,7 @@
-# This is a collection of my securitytoolings and cheatsheets.
+<h1 align="center">This is a collection of my securitytoolings and cheatsheets.</h1>
 
 
-# About me:
-<h1 align="center">Aloha, it's me, Reza Asif</h1>
+<h1 align="center">About me: Aloha, it's me, Reza Asif</h1>
 <h3 align="center">Security professional from Germany</h3>
 
 - 🔭 I’m currently working on **App-, cloud- and infrastructure- security. Main focus is platform and cloud-native solutions for enterprises.**
