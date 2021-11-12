@@ -1,22 +1,22 @@
 # securitytooling
 
-<h1 align="center">Hello, I am Reza Asif</h1>
+<h1 align="center">Aloha, it's me, Reza Asif</h1>
 <h3 align="center">Security Engineer from Germany</h3>
 
-- 🔭 I’m currently working on **App and (cloud-) infrastructure security**
+- 🔭 I’m currently working on **App-, cloud- and infrastructure- security. Main focus is platform and cloud-native solutions for enterprises.**
 
 - 📝 I regularly write articles on [https://medium.com/@reza.asif](https://medium.com/@reza.asif)
 
-- 💬 Ask me about **anything about security and risk management**
+- 💬 Ask me about **security, devsecops, threat modelling or risk management on enterprise landscape**
 
 - 📫 How to reach me **https://www.linkedin.com/in/rezaasif/**
 
-- ⚡ Fun fact **I am always in search for different possible approaches, no matter how good the current solution is.**
+- ⚡ Fun fact **I am always looking for different approaches, no matter how good the current solution is.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/rezaasif" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rezaasif" height="30" width="40" /></a>
-<a href="https://medium.com/reza.asif" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="reza.asif" height="30" width="40" /></a>
+<a href="https://medium.com/@reza.asif" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="reza.asif" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/papercracker" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="papercracker" height="30" width="40" /></a>
 </p>
 
