@@ -7,6 +7,8 @@
 
 - 📝 I regularly write articles on [https://medium.com/@reza.asif](https://medium.com/@reza.asif)
 
+- 💡 I co-coordinate a security meetup (OWASP Ruhrpott) [https://owasp.org/www-chapter-germany/stammtische/ruhrpott/](https://owasp.org/www-chapter-germany/stammtische/ruhrpott/)
+
 - 💬 Ask me about **security, devsecops, threat modelling or risk management on enterprise landscape**
 
 - 📫 How to reach me **https://www.linkedin.com/in/rezaasif/**
