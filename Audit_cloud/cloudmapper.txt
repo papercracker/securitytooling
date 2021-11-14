@@ -5,11 +5,9 @@ Link: https://github.com/duo-labs/cloudmapper
 
 Description: Cloudmapper is a tool to get a map of all the assets that are online/active(!) and how they are connected to each other. It also gives you the possibility to get an overview on the security issues that might require further investigation.
 
-
 Author of this cheat-sheet page: 
 Reza Asif (Security Professional)
 
-=======================================
 =======================================
 =============-HOW TO USE:-=============
 =======================================
@@ -43,6 +41,7 @@ python cloudmapper.py webserver
 =============-MORE COMMANDS-=============
 
 ----------------------------------
+
 Name: weboftrust
 	Show Web Of Trust. More details here. (https://summitroute.com/blog/2018/06/13/cloudmapper_wot/)
 
@@ -58,8 +57,19 @@ Command:
 
 	OR run WOT with all account in config.json
 	./cloudmapper.py weboftrust --account all
+
 ----------------------------------
 
-iam_report: Generate HTML report for the IAM information of an account. More details here. (https://summitroute.com/blog/2019/03/11/cloudmapper_iam_report_command/)
+Name: iam_report
+	Generate HTML report for the IAM information of an account. More details here. (https://summitroute.com/blog/2019/03/11/cloudmapper_iam_report_command/)
 
-find_admins: Look at IAM policies to identify admin users and roles, or principals with specific privileges. More details here. (https://summitroute.com/blog/2018/06/12/cloudmapper_find_admins/)
+----------------------------------
+
+Name: find_admins
+	Look at IAM policies to identify admin users and roles, or principals with specific privileges. More details here. (https://summitroute.com/blog/2018/06/12/cloudmapper_find_admins/)
+
+----------------------------------
+
+=======================================
+=================-END-=================
+=======================================
