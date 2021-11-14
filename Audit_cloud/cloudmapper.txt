@@ -1,6 +1,65 @@
-#cloudmapper
+=======================================
+Toolname: cloudmapper
+Use case: auditing cloud
+Link: https://github.com/duo-labs/cloudmapper
 
-#Tools description: Cloudmapper is a tool to get a map of all the assets that are online/active(!) and how they are connected to each other. It also gives you the possibility to get an overview on the security issues that might require further investigation.
-#Link: https://github.com/duo-labs/cloudmapper
+Description: Cloudmapper is a tool to get a map of all the assets that are online/active(!) and how they are connected to each other. It also gives you the possibility to get an overview on the security issues that might require further investigation.
 
-#How to use:
+
+Author of this cheat-sheet page: 
+Reza Asif (Security Professional)
+
+=======================================
+=======================================
+=============-HOW TO USE:-=============
+=======================================
+
+
+=============-SETUP-=============
+
+1) Configure information about your account.
+
+	Copy the "config.json.demo" to "config.json" and edit it to include your account ID and name (ex. "prod"), along with any external CIDR names. A CIDR is an IP range such as "1.2.3.4/32" which means only the "IP 1.2.3.4".
+
+2) Collect information about an AWS account.
+
+	This step uses the CLI to make "describe" and "list" calls and records the json in the folder specified by the account name under "account-data".
+
+=============-AWS REQUIRED PRIVILEGES-=============
+
+arn:aws:iam::aws:policy/SecurityAudit
+arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
+
+
+=============-COLLECT THE DATA-=============
+
+python cloudmapper.py collect --account my_account
+
+=============-ANALYZE DATA-=============
+python cloudmapper.py report --account my_account
+python cloudmapper.py webserver
+
+
+=============-MORE COMMANDS-=============
+
+----------------------------------
+Name: weboftrust
+	Show Web Of Trust. More details here. (https://summitroute.com/blog/2018/06/13/cloudmapper_wot/)
+
+Description: 
+	This CloudMapper post introduces the wot command, short for Web Of Trust. This identifies the AWS accounts trusted by a set of AWS accounts. It looks at the IAM policies, S3 policies, VPC peerings, and Direct Connect information to identify external accounts or Direct Connect locations that are in some way trusted.
+
+Command:
+	$ python cloudmapper.py wot --account all
+
+	OR
+	./cloudmapper.py iam_report --account TaaS_PreProd
+	./cloudmapper.py weboftrust --account TaaS_PreProd
+
+	OR run WOT with all account in config.json
+	./cloudmapper.py weboftrust --account all
+----------------------------------
+
+iam_report: Generate HTML report for the IAM information of an account. More details here. (https://summitroute.com/blog/2019/03/11/cloudmapper_iam_report_command/)
+
+find_admins: Look at IAM policies to identify admin users and roles, or principals with specific privileges. More details here. (https://summitroute.com/blog/2018/06/12/cloudmapper_find_admins/)
