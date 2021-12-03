@@ -9,12 +9,12 @@ Author of this cheat-sheet page:
 Reza Asif (Security Professional)
 
 =======================================
-=============-HOW TO USE:-=============
+--------------HOW TO USE:
 =======================================
 
-
-=============-SETUP-=============
-
+----------------------------
+--------------SETUP
+----------------------------
 1) Configure information about your account.
 
 	Copy the "config.json.demo" to "config.json" and edit it to include your account ID and name (ex. "prod"), along with any external CIDR names. A CIDR is an IP range such as "1.2.3.4/32" which means only the "IP 1.2.3.4".
@@ -23,25 +23,26 @@ Reza Asif (Security Professional)
 
 	This step uses the CLI to make "describe" and "list" calls and records the json in the folder specified by the account name under "account-data".
 
-=============-AWS REQUIRED PRIVILEGES-=============
-
+----------------------------
+--------------AWS REQUIRED PRIVILEGES
+----------------------------
 arn:aws:iam::aws:policy/SecurityAudit
 arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
 
-
-=============-COLLECT THE DATA-=============
-
+----------------------------
+--------------COLLECT THE DATA
+----------------------------
 python cloudmapper.py collect --account my_account
 
-=============-ANALYZE DATA-=============
+----------------------------
+--------------ANALYZE DATA
+----------------------------
 python cloudmapper.py report --account my_account
 python cloudmapper.py webserver
 
-
-=============-MORE COMMANDS-=============
-
-----------------------------------
-
+----------------------------
+--------------MORE COMMANDS
+----------------------------
 Name: weboftrust
 	Show Web Of Trust. More details here. (https://summitroute.com/blog/2018/06/13/cloudmapper_wot/)
 
