@@ -15,6 +15,11 @@ Reza Asif (Security Professional)
 ----------------------------
 --------------SETUP
 ----------------------------
+!!
+CAUTION: Create a new follder for each account audit as the files get overwritten.
+!!
+
+
 1) Configure information about your account.
 
 	Copy the "config.json.demo" to "config.json" and edit it to include your account ID and name (ex. "prod"), along with any external CIDR names. A CIDR is an IP range such as "1.2.3.4/32" which means only the "IP 1.2.3.4".
@@ -37,8 +42,24 @@ python cloudmapper.py collect --account my_account
 ----------------------------
 --------------ANALYZE DATA
 ----------------------------
-python cloudmapper.py report --account my_account
-python cloudmapper.py webserver
+#generates the report for analysis
+python3 cloudmapper.py report --account my_account
+
+#generated the networkoverview
+python3 cloudmapper.py prepare --account gks_dev
+	#more options on the network: (https://github.com/duo-labs/cloudmapper/blob/main/docs/network_visualizations.md)
+
+#starts the webserver
+python3 cloudmapper.py webserver
+
+----------------------------
+--------------ACCESS DATA
+----------------------------
+#Reports are here:
+http://127.0.0.1:8000/account-data/
+
+Network diagram is here:
+http://127.0.0.1:8000
 
 ----------------------------
 --------------MORE COMMANDS
