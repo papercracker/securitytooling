@@ -1,0 +1,34 @@
+#OVERVIEW
+
+All of our services are currently running on Linux. In Linux, there is a very useful command to show you all of the last commands that have been recently used. The command is simply called history, but can also be accessed by looking at your .bash_history in your home folder. By default, the history command will show you the last five hundred commands you have entered.
+
+#USAGE:
+history
+
+#To view just the last ten commands, you can use the following:
+history | tail
+
+#To view the last 25 commands, just use the following:
+history 25
+
+#Another tool you can use with history is Ctrl + R. This will output a search feature. Just begin typing a command and it will complete the command with the most recent match. If it is not the one you need, simply type a few more letters until you find the command you wanted. Once you find it, simply press the return key to run or press the right arrow key to edit it.
+
+#Another way to search history is with the following command (just be sure to replace "searchterm"):
+history | grep -i searchterm | less
+
+#You can recall a command by typing ! followed by the entry number.
+#Let's say that I have a history like this:
+
+#1 ls -la
+#2 mkdir foo
+#3 mv bar.txt foo
+
+#To run mkdir foo, you can type 
+!2
+#To run the last command, you can use 
+!-1 
+#or 
+!!
+#To run the penultimate, you can use 
+!-2
+

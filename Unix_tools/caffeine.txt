@@ -1,0 +1,8 @@
+Stop screen from powersaving and locking:
+
+#install:
+sudo apt-get update
+sudo apt-get install caffeine
+
+#start:
+caffeine
